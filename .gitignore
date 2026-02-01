@@ -1,0 +1,17 @@
+# Arquivos de ambiente e senhas (CRUCIAL)
+.env
+.streamlit/secrets.toml
+secrets.toml
+*.pem
+*.key
+
+# Lixo do Python (não precisa subir)
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambientes Virtuais (pesado demais pra subir)
+venv/
+env/
+.venv/
+.vscode/
